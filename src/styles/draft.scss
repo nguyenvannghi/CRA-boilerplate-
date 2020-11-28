@@ -1,0 +1,35 @@
+.draft-box {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background: #fff;
+    &__action {
+        padding: 0.245rem 1rem;
+        border-bottom: 1px solid #efefef;
+        display: flex;
+        flex: 0 0 auto;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        padding: 0 0;
+    }
+    &__item {
+        display: flex;
+        padding: 0 0.1875rem;
+        border-right: 1px solid #efefef;
+        a {
+            font-size: 20px;
+            color: #454545;
+            &.text {
+                font-size: 1.25rem;
+            }
+        }
+        &__select {
+            border: none;
+            background: transparent;
+            outline: 0;
+        }
+    }
+    &__content {
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.03);
+    }
+}
